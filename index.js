@@ -34,7 +34,6 @@ function orderQty(order) {
       }
       console.log(flavorCounts);
     }
-    
   }
 
 function addOrder (currentFlavor, flavorCounts) {
