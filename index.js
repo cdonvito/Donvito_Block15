@@ -42,6 +42,7 @@ function addOrder (currentFlavor, flavorCounts) {
     if (currentFlavor === flavor) {
       console.log("Object Loop: " + flavor);
       sameFlavor = 1;
+      break;
     }
   }
   return sameFlavor;
